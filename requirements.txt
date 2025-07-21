@@ -1,0 +1,40 @@
+# Core dependencies
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.2.0
+tqdm>=4.64.0
+
+# RDKit for molecular fingerprints
+rdkit>=2022.9.1
+
+# Optional GPU acceleration (choose one)
+# For CUDA GPU acceleration (recommended for Windows)
+cupy-cuda11x>=11.0.0  # For CUDA 11.x
+# cupy-cuda12x>=12.0.0  # For CUDA 12.x (uncomment if using CUDA 12)
+
+# Alternative GPU backends (optional)
+torch>=1.13.0  # For PyTorch GPU support
+tensorflow>=2.10.0  # For TensorFlow GPU support
+numba>=0.56.0  # For Numba CUDA support
+
+# Additional dependencies
+requests>=2.28.0
+pickle-mixin>=1.0.2
+warnings>=0.1.0
+sqlite3  # Built-in with Python
+gzip  # Built-in with Python
+json  # Built-in with Python
+logging  # Built-in with Python
+gc  # Built-in with Python
+contextlib  # Built-in with Python
+io  # Built-in with Python
+math  # Built-in with Python
+time  # Built-in with Python
+os  # Built-in with Python
+sys  # Built-in with Python
+typing  # Built-in with Python
+
+# Development dependencies (optional)
+jupyter>=1.0.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
