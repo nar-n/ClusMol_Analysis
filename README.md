@@ -1,4 +1,4 @@
-# Molecular Clustering Tools
+# Molecular Clustering Tool
 
 A suite of tools for molecular clustering based on SMILES strings. This project supports multiple clustering methods, including distance-based clustering, Tanimoto similarity, and two-stage clustering, with optional GPU acceleration.
 
